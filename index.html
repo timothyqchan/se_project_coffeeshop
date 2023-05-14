@@ -16,8 +16,6 @@
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Noto+Serif:ital@0;1&display=swap"
       rel="stylesheet"
     />
-    <!-- Inter: Arial, sans-serif
-    Noto Serif: Times New Roman, serif -->
     <title>Coffee Shop</title>
   </head>
   <body>
@@ -31,10 +29,10 @@
           />
           <ul class="nav__links">
             <li>
-              <a class="nav__link" href="#menu">Menu</a>
+              <a class="nav__link" href="#recipes">Recipes</a>
             </li>
             <li>
-              <a class="nav__link" href="#recipes">Recipes</a>
+              <a class="nav__link" href="#menu">Menu</a>
             </li>
             <li>
               <a class="nav__link" href="#reservation">Book a table</a>
@@ -58,14 +56,10 @@
           alt="practicum coffee shop"
         />
         <div class="header__footer">
-          <ul class="header__footer_list">
-            <li class="header__footer_list-item">Hours:</li>
-            <li class="header__footer_list-item">
-              Monday - Friday (10:00 - 19:00)
-            </li>
-            <li class="header__footer_list-item">
-              Saturday - Sunday (11:00 - 18:00)
-            </li>
+          <ul class="header__list">
+            <li class="header__list-item">Hours:</li>
+            <li class="header__list-item">Monday - Friday (10:00 - 19:00)</li>
+            <li class="header__list-item">Saturday - Sunday (11:00 - 18:00)</li>
           </ul>
           <p class="header__paragraph">
             200 Success Avenue, The Town of Practicum
@@ -73,8 +67,43 @@
         </div>
       </header>
       <main class="content">
+        <section class="recipes" id="recipes">
+          <h2 class="recipes__title">Recipes</h2>
+          <p class="recipes__subtitle">
+            Check out some recipes we've collected for your home-brewing
+            convenience:
+          </p>
+          <div class="recipes__videos">
+            <div class="recipes__videos_content">
+              <!-- https://validator.w3.org/ "controls" is not allowed? -->
+              <iframe
+                class="recipes__video"
+                id="ytplayer1"
+                width="720"
+                height="405"
+                src="https://www.youtube.com/embed/j6VlT_jUVPc"
+                allowfullscreen
+                controls
+              ></iframe>
+              <p class="recipes__video_caption">Aeropress recipe</p>
+              <p class="recipes__video_length">~5 min</p>
+            </div>
+            <div class="recipes__videos_content">
+              <iframe
+                class="recipes__video"
+                id="ytplayer2"
+                width="720"
+                height="405"
+                src="https://www.youtube.com/embed/st571DYYTR8"
+                allowfullscreen
+                controls
+              ></iframe>
+              <p class="recipes__video_caption">French press recipe</p>
+              <p class="recipes__video_length">~15 min</p>
+            </div>
+          </div>
+        </section>
         <section class="menu"></section>
-        <section class="recipes"></section>
         <section class="reservation"></section>
         <section class="about"></section>
       </main>

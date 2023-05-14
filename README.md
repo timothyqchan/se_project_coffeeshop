@@ -8,9 +8,12 @@ This is the second project of the Web Development program at Practicum. It was c
 - Flexbox
 - Positioning
 - Flat BEM
+- iframe
 - A custom form
 - CSS animation and transform
 
 ## Plan on improving the project
 
-- write my ideas here
+- Stage 2:
+- Right now the site looks bland with no hover effects or animations.
+- I hope to soon be able to add those in.
