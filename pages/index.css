@@ -198,11 +198,11 @@ Noto Serif: Times New Roman, serif */
   border: none;
 }
 
-.video_caption {
+.recipes__caption {
   padding-top: 24px;
 }
 
-.video_length {
+.recipes__length {
   position: absolute;
   right: 0;
   bottom: 0;
