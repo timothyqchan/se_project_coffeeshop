@@ -148,7 +148,7 @@ Noto Serif: Times New Roman, serif */
   background-position: center;
   height: 100vh;
   min-height: 720px;
-  max-height: 800px;
+  max-height: 866.5px;
   padding: 0 80px 0;
   position: relative;
   -webkit-box-sizing: border-box;
@@ -180,7 +180,7 @@ Noto Serif: Times New Roman, serif */
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
-  padding-bottom: 215px;
+  margin-bottom: 215px;
   gap: 40px;
 }
 
@@ -206,4 +206,131 @@ Noto Serif: Times New Roman, serif */
   position: absolute;
   right: 0;
   bottom: 0;
+}
+
+/* Reservations Section */
+
+.reservation {
+  background-color: #d9e7ff;
+  background-image: url(../images/background_reservation.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  min-height: 720px;
+  max-height: 981px;
+  position: relative;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.reservation__title {
+  font-family: "Inter", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+  text-align: center;
+  padding: 100px 0 80px;
+}
+
+.reservation__form {
+  max-width: 385px;
+}
+
+.form {
+  margin: 0 auto 120px;
+}
+
+.form__fieldset {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+.form__label {
+  font-family: "Inter", "Arial", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.form__fieldset .form__label {
+  display: block;
+  margin: 0 0 8px;
+}
+
+.form__label_type_name {
+}
+
+.form__label_type_number {
+}
+
+.form__label_type_date {
+}
+
+.form__label_type_email {
+}
+
+.form__input {
+  font-family: "Inter", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  color: #838383;
+  border-radius: 4px;
+  margin: 0 0 32px;
+}
+
+.form__fieldset .form__input {
+  width: 90%;
+  height: 60px;
+  display: block;
+  padding: 0 5%;
+}
+
+.form__input_type_name {
+}
+
+.form__input_type_number {
+}
+
+.form__input_type_date {
+  color: #000;
+}
+
+.form__input_type_email {
+}
+
+.form__button {
+  font-family: "Inter", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  width: 100%;
+  max-width: 385px;
+  height: 60px;
+  background-color: #2f80ed;
+  color: #fff;
+  border-radius: 4px;
+  transition: opacity 0.3s ease-in-out 0s;
+  margin: 0 0 32px;
+}
+
+.form__button:hover {
+  opacity: 70%;
+}
+
+.form__label_type_checkbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form__input_type_checkbox {
+  width: 20px;
+  height: 20px;
+  margin: 0 12px 0 0;
 }

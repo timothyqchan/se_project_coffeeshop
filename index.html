@@ -32,10 +32,10 @@
               <a class="nav__link" href="#recipes">Recipes</a>
             </li>
             <li>
-              <a class="nav__link" href="#menu">Menu</a>
+              <a class="nav__link" href="#reservation">Book a table</a>
             </li>
             <li>
-              <a class="nav__link" href="#reservation">Book a table</a>
+              <a class="nav__link" href="#menu">Menu</a>
             </li>
             <li>
               <a class="nav__link" href="#contacts">Contacts</a>
@@ -101,8 +101,69 @@
             </div>
           </div>
         </section>
+        <section class="reservation" id="reservation">
+          <h2 class="reservation__title">Book a table</h2>
+          <form class="reservation__form form" action="#">
+            <fieldset class="form__fieldset">
+              <label class="form__label form__label_type_name" for="sname"
+                >Name *</label
+              >
+              <input
+                class="form__input form__input_type_name"
+                id="sname"
+                name="sname"
+                type="text"
+                placeholder="Name Surname"
+                required
+              />
+              <label class="form__label form__label_type_number" for="number"
+                >Number of guests *</label
+              >
+              <input
+                class="form__input form__input_type_number"
+                id="number"
+                name="number"
+                type="number"
+                min="1"
+                max="8"
+                placeholder="1-8"
+                required
+              />
+              <label class="form__label form__label_type_date" for="date"
+                >Date & time *</label
+              >
+              <input
+                class="form__input form__input_type_date"
+                id="date"
+                name="date"
+                type="datetime-local"
+                required
+              />
+              <label class="form__label form__label_type_email" for="email"
+                >Email *</label
+              >
+              <input
+                class="form__input form__input_type_email"
+                id="email"
+                name="email"
+                type="email"
+                placeholder="email@email.com"
+                required
+              />
+            </fieldset>
+            <button class="form__button" type="submit">Book a table</button>
+            <label class="form__label form__label_type_checkbox">
+              <input
+                class="form__input form__input_type_checkbox"
+                name="checkbox"
+                type="checkbox"
+                required
+              />
+              I agree with the terms of use
+            </label>
+          </form>
+        </section>
         <section class="menu" id="menu"></section>
-        <section class="reservation" id="reservation"></section>
         <section class="about" id="contacts"></section>
       </main>
       <footer class="footer"></footer>
