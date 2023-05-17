@@ -46,10 +46,10 @@ Book a table
 
 **Form labels**
 
-Name *
-Number of guests *
-Date & time *
-Your email *
+Name _
+Number of guests _
+Date & time _
+Your email _
 
 Book a table
 
@@ -68,7 +68,6 @@ email@email.com
 **Title and description**
 
 Menu
-
 
 We brew coffee from locally roasted, Fairtrade certified beans and use biodegradable cups. All teas from our collection are $2/cup.
 
@@ -115,4 +114,4 @@ Social media
 Facebook
 Instagram
 
-© 2022 Your name
+© 2023 Timothy Chan

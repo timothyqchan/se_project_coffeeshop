@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.form {
+  margin: 0 auto;
+}
+
+.form__fieldset {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+.form__fieldset .form__label {
+  display: block;
+  margin: 0 0 8px;
+}
+
+.form__fieldset .form__input {
+  width: 90%;
+  height: 60px;
+  display: block;
+  padding: 0 5%;
+}
+
+.form__label {
+  font-family: "Inter", "Arial", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.form__label_type_name {
+}
+
+.form__label_type_number {
+}
+
+.form__label_type_date {
+}
+
+.form__label_type_email {
+}
+
+.form__label_type_checkbox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.form__input {
+  font-family: "Inter", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  color: #838383;
+  border-radius: 4px;
+  margin: 0 0 32px;
+}
+
+.form__input_type_checkbox {
+  width: 20px;
+  height: 20px;
+  margin: 0 12px 0 0;
+}
+
+.form__input_type_name {
+}
+
+.form__input_type_number {
+}
+
+.form__input_type_date {
+  color: #000;
+}
+
+.form__input_type_email {
+}
+
+.form__button {
+  font-family: "Inter", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  width: 100%;
+  max-width: 385px;
+  height: 60px;
+  background-color: #2f80ed;
+  color: #fff;
+  border-radius: 4px;
+  -webkit-transition: opacity 0.3s ease-in-out 0s;
+  -o-transition: opacity 0.3s ease-in-out 0s;
+  transition: opacity 0.3s ease-in-out 0s;
+  margin: 0 0 32px;
+}
+
+.form__button:hover {
+  opacity: 70%;
+}
