@@ -90,16 +90,6 @@
 
 .about__circle_animation_blurred {
   z-index: -2;
-<<<<<<< HEAD
-=======
-  position: absolute;
-  top: -152px;
-  left: -129px;
-  background-color: #2f80ed;
-  width: 426px;
-  height: 426px;
-  border-radius: 50%;
->>>>>>> e815b2076d4c6059f2281ecf43808b65fcd501ff
   -webkit-animation: pulsate 1.3s ease-in-out 0s infinite;
   animation: pulsate 1.3s ease-in-out 0s infinite;
 }
