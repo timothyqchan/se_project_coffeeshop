@@ -6,14 +6,6 @@
 .nav {
 }
 
-.nav__logo {
-  position: absolute;
-  top: 30px;
-  left: 30px;
-  width: 125px;
-  height: 142px;
-}
-
 .nav__links {
   display: -webkit-box;
   display: -ms-flexbox;
