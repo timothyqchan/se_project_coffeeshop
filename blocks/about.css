@@ -26,13 +26,7 @@
   }
 }
 
-* {
-  margin: 0;
-  padding: 0;
-}
-
 .about {
-  z-index: -2;
   background-color: #0a2850;
   padding: 100px 80px 173px;
   position: relative;
@@ -49,9 +43,9 @@
 }
 
 .about__title {
+  z-index: 3;
   max-width: 251px;
   font-family: "Inter", "Arial", sans-serif;
-  font-style: normal;
   font-weight: 500;
   font-size: 44px;
   line-height: 52px;
@@ -78,7 +72,7 @@
 }
 
 .about__circle {
-  z-index: -1;
+  z-index: 2;
   position: absolute;
   top: -152px;
   left: -129px;
@@ -89,7 +83,7 @@
 }
 
 .about__circle_animation_blurred {
-  z-index: -2;
+  z-index: 1;
   -webkit-animation: pulsate 1.3s ease-in-out 0s infinite;
   animation: pulsate 1.3s ease-in-out 0s infinite;
 }

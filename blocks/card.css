@@ -1,11 +1,5 @@
-* {
-  margin: 0;
-  padding: 0;
-}
-
 .card {
   width: 540px;
-  margin: 0 auto;
 }
 
 .card__title {

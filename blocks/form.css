@@ -1,8 +1,3 @@
-* {
-  margin: 0;
-  padding: 0;
-}
-
 .form {
   margin: 0 auto;
 }
@@ -13,38 +8,17 @@
   border: none;
 }
 
-.form__fieldset .form__label {
+.form__label {
   display: block;
   margin: 0 0 8px;
-}
-
-.form__fieldset .form__input {
-  width: 90%;
-  height: 60px;
-  display: block;
-  padding: 0 5%;
-}
-
-.form__label {
   font-family: "Inter", "Arial", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
 }
 
-.form__label_type_name {
-}
-
-.form__label_type_number {
-}
-
-.form__label_type_date {
-}
-
-.form__label_type_email {
-}
-
 .form__label_type_checkbox {
+  margin: 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -57,12 +31,17 @@
 }
 
 .form__input {
+  width: 90%;
+  height: 60px;
+  display: block;
+  padding: 0 5%;
   font-family: "Inter", "Arial", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
   line-height: 30px;
   color: #838383;
+  border: #838383 solid 1px;
   border-radius: 4px;
   margin: 0 0 32px;
 }
@@ -73,17 +52,8 @@
   margin: 0 12px 0 0;
 }
 
-.form__input_type_name {
-}
-
-.form__input_type_number {
-}
-
 .form__input_type_date {
   color: #000;
-}
-
-.form__input_type_email {
 }
 
 .form__button {
@@ -97,6 +67,7 @@
   height: 60px;
   background-color: #2f80ed;
   color: #fff;
+  border: #838383 solid 1px;
   border-radius: 4px;
   -webkit-transition: opacity 0.3s ease-in-out 0s;
   -o-transition: opacity 0.3s ease-in-out 0s;
