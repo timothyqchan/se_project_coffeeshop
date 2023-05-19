@@ -17,7 +17,7 @@
   line-height: 20px;
 }
 
-.form__label_type_checkbox {
+.form__label:last-of-type {
   margin: 0;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -46,14 +46,10 @@
   margin: 0 0 32px;
 }
 
-.form__input_type_checkbox {
+.form__checkbox {
   width: 20px;
   height: 20px;
   margin: 0 12px 0 0;
-}
-
-.form__input_type_date {
-  color: #000;
 }
 
 .form__button {
