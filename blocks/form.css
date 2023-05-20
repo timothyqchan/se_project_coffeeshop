@@ -17,7 +17,7 @@
   line-height: 20px;
 }
 
-.form__label:last-of-type {
+.form__label_type_checkbox {
   margin: 0;
   display: -webkit-box;
   display: -ms-flexbox;
